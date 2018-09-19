@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DragAndDropActivity">
 
+
     <ImageView
-        android:id="@+id/image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/smile"
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile"
+        android:layout_centerInParent="true"
         android:contentDescription="@string/image" />
 
-</FrameLayout>
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background=""/>
+
+</RelativeLayout>

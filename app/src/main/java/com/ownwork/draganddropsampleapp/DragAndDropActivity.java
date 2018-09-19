@@ -21,7 +21,7 @@ public class DragAndDropActivity extends AppCompatActivity {
     }
 
     private void initDragAndDrop() {
-        final ImageView imageView = findViewById(R.id.image);
+        final ImageView imageView = findViewById(R.id.image_view);
 
 // Sets the bitmap for the ImageView from an icon bit map (defined elsewhere)
         imageView.setImageDrawable(getResources().getDrawable(R.drawable.smile));
